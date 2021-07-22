@@ -85,6 +85,6 @@ function playSound(name) {
 }
 function startOver() {
   level = 0;
-  gamePattern = 0;
+  gamePattern = [];
   started = false;
 }
