@@ -16,7 +16,19 @@ $(document).keypress( function () {
   }
 });
 
+$("#btn1").click(function(){
+  if (!started) {
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
 
+
+  $("#btn1").addClass("pressed");
+  setTimeout(function(){
+    $("#btn1").removeClass("pressed");
+  }, 200);
+})
 
 $(".btn").click(function() {
 
