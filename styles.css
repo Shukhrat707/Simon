@@ -3,6 +3,17 @@ body {
   background-color: #011F3F;
 }
 
+button {
+  text-align: center;
+  width: 180px;
+  font-size: 1.5rem;
+  font-family: 'Press Start 2P', sans-serif;
+  border-radius: 10%;
+  color: red;
+  padding-top: 10px;
+  line-height: 4rem;
+}
+
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
